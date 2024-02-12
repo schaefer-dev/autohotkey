@@ -33,12 +33,12 @@ CapsLock & r::
 return
 
 CapsLock & t::
-    if (WinExist("ahk_exe Teams.exe"))
+    if (WinExist("ahk_exe ms-teams.exe"))
     {
-        WinActivate, ahk_exe Teams.exe
+        WinActivate, ahk_exe ms-teams.exe
     }
     else
-        Run, Teams.exe
+        Run, ms-teams.exe
 return
 
 CapsLock & z::
