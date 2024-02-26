@@ -43,18 +43,18 @@ RightScreenLowerHalf()
 ;#!5::WindowThird(960,1035, 960, 45)
 
 ; Two Tile layout
-;Capslock & 1::LeftScreenHalf()
-;Capslock & 2::RightScreenHalf()
-;Capslock & 3::RightScreenUpperHalf()
-;Capslock & 4::RightScreenLowerHalf()
+Capslock & 1::LeftScreenHalf()
+Capslock & 2::RightScreenHalf()
+Capslock & 3::RightScreenUpperHalf()
+Capslock & 4::RightScreenLowerHalf()
 
 ; Two Tile layout - Windows keys
-Capslock & 1::
-    Send {LWin Down}{Left}{LWin Up}
-return
-Capslock & 2:: 
-    Send {LWin Down}{Right}{LWin Up}
-return
+;Capslock & 1::
+;    Send {LWin Down}{Left}{LWin Up}
+;return
+;Capslock & 2:: 
+;    Send {LWin Down}{Right}{LWin Up}
+;return
 ;Capslock & 3::RightScreenUpperHalf()
 ;Capslock & 4::RightScreenLowerHalf()
 
